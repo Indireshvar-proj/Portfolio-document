@@ -13,6 +13,62 @@
   }
 }
 
+
+
+
+/* Default navbar style */
+.navbar {
+  background-color: transparent; /* Initially transparent */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+  padding: 10px 20px;
+}
+
+/* Sticky navbar style when scrolling */
+.sticky {
+  background-color: #34495e !important; /* Change the background color when scrolling */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add shadow for a "sticky" effect */
+}
+
+/* Navbar link styles */
+.navbar .nav-link {
+  color: white;
+  font-size: 18px;
+  margin-right: 20px;
+  transition: color 0.3s ease;
+}
+
+/* Style for the active navigation item */
+.navbar .nav-link.active {
+  color: #6c5ce7; /* Change the color of the active tab */
+  font-weight: bold; /* Optional: Make active tab bold */
+}
+
+/* Navbar brand */
+.navbar .navbar-brand p {
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 28px;
+  color: white;
+}
+
+/* Customize the toggle button (hamburger menu) */
+.navbar-toggler-icon {
+  background-color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .navbar .nav-link {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar .navbar-brand p {
+    font-size: 22px;
+  }
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -23,10 +79,90 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.project-section {
+  background: linear-gradient(to right, #9cb9d6, #778695);
+  color: white;
+  padding: 60px 0;  /* Optional: Add some padding to space the content */
+}
+.project-toggle-buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.project-toggle-button {
+  margin: 0 15px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.project-toggle-button:hover {
+  background-color: #6c5ce7;
+  color: white;
+}
+
 
 .App-link {
   color: #61dafb;
 }
+
+/* Default navbar style */
+.navbar {
+  background-color: transparent; /* Initially, transparent */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+  padding: 10px 20px;
+}
+
+/* Sticky navbar style when scrolling */
+.sticky {
+  background-color: #34495e !important; /* Change the background color to a darker shade when scrolling */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add shadow for a "sticky" effect */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Navbar link styles */
+.navbar .nav-link {
+  color: white;
+  font-size: 18px;
+  margin-right: 20px;
+  transition: color 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+  color: #6c5ce7; /* Change to purple color on hover */
+}
+
+/* Navbar brand */
+.navbar .navbar-brand p {
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 28px;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+/* Customize the toggle button (hamburger menu) */
+.navbar-toggler-icon {
+  background-color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .navbar .nav-link {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar .navbar-brand p {
+    font-size: 22px;
+  }
+}
+
+
+
 
 @keyframes App-logo-spin {
   from {
@@ -36,3 +172,214 @@
     transform: rotate(360deg);
   }
 }
+/* Styling for the Course Certificates section */
+.courses-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.course-item {
+  margin-bottom: 1.5rem;
+}
+
+.course-item ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.course-item li {
+  margin-bottom: 0.5rem;
+}
+
+.courses-section {
+  padding: 2rem 0;
+}
+
+.course-title {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #333;
+}
+
+.course-item a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.course-item a:hover {
+  text-decoration: underline;
+}
+/* Styling for the Course Certificates section */
+.courses-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.courses-section {
+  padding: 2rem 0;
+}
+
+.course-item {
+  margin-bottom: 1.5rem;
+}
+
+.course-card {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.course-card:hover {
+  transform: translateY(-10px);
+}
+
+.course-card .card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.course-card .card-subtitle {
+  font-size: 1rem;
+  color: #777;
+}
+
+.course-card .card-text {
+  font-size: 1rem;
+  color: #555;
+}
+
+.course-card .card-link {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.course-card .card-link:hover {
+  text-decoration: underline;
+}
+.project-section {
+  padding: 2rem 0;
+}
+
+.project-heading {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.project-card {
+  margin-bottom: 1.5rem;
+}
+
+.list-group-item {
+  background-color: #1e1e1e;
+  border: none;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  padding: 1.5rem;
+  color: white;
+}
+
+.list-group-item h5 {
+  font-size: 1.25rem;
+  color: #2daed2;
+}
+
+.list-group-item p {
+  font-size: 1rem;
+  color: #497ae2;
+}
+
+.list-group-item a {
+  color: #1a73e8;
+  text-decoration: none;
+}
+
+.list-group-item a:hover {
+  text-decoration: underline;
+}
+.course-item {
+  background-color: #2c2c2c;
+  border: 1px solid #444;
+  transition: transform 0.2s ease;
+}
+.course-item:hover {
+  transform: translateY(-4px);
+}
+
+
+@media (max-width: 768px) {
+  .list-group-item {
+    padding: 1rem;
+  }
+}
+
+/* Course List Styling */
+.course-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.course-list-item {
+  background: #fefefe;
+  border-left: 5px solid #6c63ff;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 0.6s ease forwards;
+}
+
+.course-list-item:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+  border-left-color: #4834d4;
+}
+
+.course-list-title {
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #222;
+}
+
+.course-list-desc {
+  color: #555;
+  font-size: 0.95rem;
+}
+
+.course-badge {
+  background: #dcdcdc;
+  font-size: 0.75rem;
+  padding: 3px 8px;
+  border-radius: 12px;
+  margin-left: 10px;
+  color: #333;
+}
+
+.course-icon {
+  font-size: 1.2rem;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+.course-list-btn {
+  margin-top: 10px;
+}
+
+/* Animation */
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+
+

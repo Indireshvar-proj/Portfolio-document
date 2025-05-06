@@ -20,7 +20,7 @@ function Github() {
   return (
     <Row style={{ justifyContent: 'center', paddingBottom: '10px' }}>
       <h1 className="project-heading" style={{ paddingBottom: '20px' }}>
-        Days I <strong className="purple">Code</strong>
+        <strong className="purple"></strong>
       </h1>
       {/* Render the data you fetched here */}
       {data && <div>{/* Render your calendar or activity data */}</div>}

@@ -735,3 +735,64 @@ html {
 .fork-btn-inner::after {
   display: none !important;
 }
+/* Apply Georgia font to the whole body */
+/* Apply Calibri font to the whole body */
+body {
+  font-family: 'Verdana', sans-serif;
+}
+
+/* Apply Calibri font specifically to the navigation */
+nav {
+  font-family: 'Verdana', sans-serif;
+}
+
+nav a {
+  text-decoration: none; /* Remove underline from links */
+  color: #000; /* Set text color for links */
+  padding: 10px;
+  margin: 5px;
+}
+
+nav a:hover {
+  color: #007BFF; /* Color when hovering over the link */
+}
+
+/* Styling for the Course Certificates section */
+.courses-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.course-item {
+  margin-bottom: 1.5rem;
+}
+
+.course-item ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.course-item li {
+  margin-bottom: 0.5rem;
+}
+
+.courses-section {
+  padding: 2rem 0;
+}
+
+.course-title {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #333;
+}
+
+.course-item a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.course-item a:hover {
+  text-decoration: underline;
+}

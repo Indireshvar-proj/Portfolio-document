@@ -3,22 +3,10 @@ import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
 import {BiLinkExternal} from 'react-icons/bi'
 
-function ProjectCards(props) {
+function CoursesCards(props) {
   return (
     <Card className="project-card-view">
-      
-      <div className="course-image-container mb-3" style={{ textAlign: "center" }}>
-              <img
-                src={props.imgPath}
-                alt={props.title}
-                style={{
-                  width: "100%",
-                  maxHeight: "200px",
-                  objectFit: "cover",
-                  borderRadius: "5px",
-                }}
-              />
-            </div>
+      <Card.Img variant="top" src={props.imgPath} alt="card-img" />
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
         <Card.Text style={{textAlign: 'justify'}}>
@@ -44,4 +32,4 @@ function ProjectCards(props) {
     </Card>
   )
 }
-export default ProjectCards
+export default CoursesCards

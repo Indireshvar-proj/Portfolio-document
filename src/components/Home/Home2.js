@@ -1,9 +1,9 @@
 import React from 'react'
-import {Container, Row, Col} from 'react-bootstrap'
+import { Container, Row, Col } from 'react-bootstrap'
 import myImg from '../../Assets/avatar.svg'
 import Tilt from 'react-parallax-tilt'
-import {AiFillGithub, AiOutlineTwitter, AiFillInstagram} from 'react-icons/ai'
-import {FaLinkedinIn} from 'react-icons/fa'
+import { AiFillGithub } from 'react-icons/ai'
+import { FaLinkedinIn } from 'react-icons/fa'
 
 function Home2() {
   return (
@@ -11,39 +11,34 @@ function Home2() {
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
-            <h1 style={{fontSize: '2.6em'}}>
+            <h1 style={{ fontSize: '2.6em' }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              Im passionate about building web solutions and full stack applications with advanced frameworks and libraries
+              I’m a Software Engineer passionate about crafting scalable, high-performance web applications. With a strong foundation in software engineering, I specialize in building end-to-end solutions using modern frameworks and cloud-native technologies.
               <br />
-              <br />Interested in creating frontend and backend enabled technologies
+              <br />
+              I enjoy creating dynamic and responsive frontends using&nbsp;
               <i>
-                <b className="purple"> with MERN stack and full stack development </b>
-              </i>
-              <br />
-              <br />
-              My field of Interest's are building new &nbsp;
+                <b className="purple">React.js, Next.js, and TypeScript</b>
+              </i>, and architecting robust backend systems with&nbsp;
               <i>
-                <b className="purple">
-                  Web Technologies, Application developement and Products{' '}
-                </b>{' '}
-                and also in areas related to <b className="purple">Clouds.</b>
-              </i>
+                <b className="purple">Node.js, Express.js, and MongoDB</b>
+              </i>. I also have hands-on experience integrating secure authentication, real-time APIs, and third-party services to deliver complete user experiences.
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              My interests lie in building modern&nbsp;
               <i>
-                <b className="purple">
-                  {' '}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
+                <b className="purple">Web Applications, AI-integrated Products, and Scalable Cloud Solutions</b>
+              </i>, with a keen focus on performance, usability, and real-world impact.
+              <br />
+              <br />
+              I'm proficient in leveraging cloud platforms like&nbsp;
+              <b className="purple">Azure and Google Cloud</b> for deployment, analytics, and CI/CD automation. I also use UI/UX tools like&nbsp;
+              <b className="purple">Figma</b> to design user-friendly interfaces before development.
+              <br />
+              <br />
+              I'm constantly exploring new technologies and contributing to open-source projects to sharpen my skills. I believe in writing clean, maintainable code and delivering features that align with user needs and business goals.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -56,7 +51,7 @@ function Home2() {
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
             <p>
-               <span className="purple"> </span>
+              Let's connect and collaborate! You can find me on the platforms below:
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
@@ -64,18 +59,17 @@ function Home2() {
                   href="https://github.com/Indireshvar-proj"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <AiFillGithub />
                 </a>
               </li>
-
               <li className="social-icons">
                 <a
                   href="https://linkedin.com/in/indireshvar-v-246a25241/"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <FaLinkedinIn />
                 </a>
@@ -87,4 +81,5 @@ function Home2() {
     </Container>
   )
 }
+
 export default Home2

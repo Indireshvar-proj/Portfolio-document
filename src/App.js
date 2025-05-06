@@ -6,6 +6,8 @@ import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer";
 import Resume from "./components/Resume/Resume";
+import Courses from "./components/Courses/Courses";
+import CourseDetails from "./components/Courses/CourseDetails";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./style.css";
 import "./App.css";
@@ -38,6 +40,8 @@ function App() {
           <Route path="/project" element={<Projects />} />
           <Route path="/about" element={<About/>} />
           <Route path="/resume" element={<Resume />} />
+          <Route path="/courses" element={<Courses />}/>
+          <Route path="/course/:id" component={CourseDetails} />
         </Routes>
         <Footer />
       </div>

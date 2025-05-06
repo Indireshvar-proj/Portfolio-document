@@ -1,39 +1,45 @@
 import React from 'react'
 import Card from 'react-bootstrap/Card'
-import {ImPointRight} from 'react-icons/im'
+import { ImPointRight } from 'react-icons/im'
 
 function AboutCard() {
   return (
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
-          <p style={{textAlign: 'justify'}}>
-            Hi Everyone, I am <span className="purple">Indireshvar </span>
-            from <span className="purple"> Tamilnadu, India.</span>
-            <br />I am a Full Stack Javascript Developer.
+          <p style={{ textAlign: 'justify' }}>
+            Hello! I’m <span className="purple">Indireshvar</span>, a passionate <b className="purple">Full Stack Web Developer</b> with a strong focus on modern JavaScript technologies.
             <br />
-            I had done some industry related projects with MERN stack and deployed the projects in production.
-            Also,completed many academic related projects encompassing on the tech field with industry interlinked projects.
             <br />
-            <br/>
-            Apart from coding, some other activities that I love to do!
+            I specialize in designing and developing scalable web applications using the <b className="purple">MERN stack</b> (MongoDB, Express.js, React.js, and Node.js). My experience spans across creating AI-integrated e-commerce platforms, interactive dashboards, and real-time social media applications that are both user-friendly and performance-optimized.
+            <br />
+            <br />
+            I have also gained hands-on experience in <b className="purple">cloud computing</b> using Azure and Google Cloud, RESTful API architecture, and UI/UX design tools like <b className="purple">Figma</b> to ensure seamless user interactions.
+            <br />
+            <br />
+            With a deep interest in building impactful solutions, I aim to contribute to innovative teams and deliver high-quality software aligned with modern engineering practices.
+            <br />
+            <br />
+            <strong>When I’m not coding, I like to stay curious and creative through various activities:</strong>
           </p>
+
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Playing strategy-based video games
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writting Tech Blogs
+              <ImPointRight /> Writing technical blogs and tutorials
             </li>
             <li className="about-activity">
-              <ImPointRight /> Watching Movies and Web Series
+              <ImPointRight /> Watching documentaries, movies, and web series
             </li>
           </ul>
 
-          <p style={{marginBlockEnd: 0, color: 'rgb(155 126 172)'}}>
-            "The world rewards you for value provided, not time spent."{' '}
+          <p style={{ marginBlockEnd: 0, color: 'rgb(155 126 172)' }}>
+            "The world rewards you for the value you create, not the hours you work."
           </p>
-          <footer className="blockquote-footer">James clear</footer>
+          <br></br>
+          <footer className="blockquote-footer">James Clear</footer>
         </blockquote>
       </Card.Body>
     </Card>
