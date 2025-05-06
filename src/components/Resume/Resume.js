@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import Resumecontent from "./ResumeContent";
-import pdf from "../../Assets/Indireshvar V resumfile.pdf";
+import pdf from "../../Assets/Indireshvar V resumefile.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import ReactGA from "react-ga";
 
